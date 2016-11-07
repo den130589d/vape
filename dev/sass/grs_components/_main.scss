@@ -1,0 +1,14 @@
+.section-title{
+  width: calc(100% - 478px);
+
+  background: url(../images/title.png) center center no-repeat;
+  background-size: cover;
+  //display: inline-block;
+  margin-left:478px;
+  text-align: center;
+  span{
+    margin: 0 auto;
+    font-size: 32px;
+  }
+
+}
