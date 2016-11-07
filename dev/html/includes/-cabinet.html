@@ -1,15 +1,17 @@
 <div class="row cabinet">
     <div class="col l12">
         <ul>
-            <a href=""><li>Контактная информация</li></a>
-            <a href=""><li>История заказов</li></a>
-            <a href=""><li>Адрес доставки</li></a>
+            <a href=""><li class="black-text">Контактная информация</li></a>
+            <a href=""><li class="black-text">История заказов</li></a>
+            <a href=""><li class="black-text">Адрес доставки</li></a>
         </ul>
     </div>
-    <div class="col l4">
-            <img src="../images/cabinet1.png" alt=""></li>
+    <div class="col l5">
+
+            <img src="../images/cabinet1.png" alt="" class="img-cabinet">
+
     </div>
-    <div class="col l4">
+    <div class="col l3">
                 <span>Иван Иванов</span><br>
                 <span>+3066666666</span><br>
                 <span>Киев</span><br>
@@ -17,10 +19,22 @@
     </div>
 
     <div class="col l4">
-        <form class="form-cabinet" action="">
-            <label for="name"></label>
-            <input class="form-cabinet" id="name" type="text">
+        <a href="#">Добавления нового адреса</a>
+        <form>
+            <label for="first_name" class="black-text fs15">Имя получателя</label>
+            <input id="first_name" type="text">
+            <label for="last_name" class="black-text fs15">Имя получателя</label>
+            <input id="last_name" type="text">
+            <label for="city" class="black-text fs15">Имя получателя</label>
+            <input id="city" type="text">
+            <label for="adress" class="black-text fs15">Имя получателя</label>
+            <input id="adress" type="text">
+            <label for="phone" class="black-text fs15">Имя получателя</label>
+            <input id="phone" type="text">
+
         </form>
+    </div>
+    <div class="col l12 center-align"><input value="Сохранить" type="submit" class="btn-save">
     </div>
 
 
